@@ -28,7 +28,7 @@ IMAGE_CONFIG = {
     ]
 }
 
-ITEM_API = "https://ff-items-icon-info.vercel.app/item-image?id={itemid}&key=NRCODEX"
+ITEM_API = "https://cdn.jsdelivr.net/gh/ShahGCreator/icon@main/PNG/{itemid}.png"
 
 # Fetch player info
 def fetch_player_info(uid, region):
